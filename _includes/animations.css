@@ -1,0 +1,155 @@
+@-webkit-keyframes navin {
+    0% {
+        opacity: 0
+   }
+   30% {
+       opacity: 0
+  }
+  35% {
+      opacity: 1
+ }
+ 100% {
+     opacity: 1
+}
+}
+@-moz-keyframes navin {
+    0% {
+        opacity: 0
+   }
+   30% {
+       opacity: 0
+  }
+  35% {
+      opacity: 1
+ }
+ 100% {
+     opacity: 1
+}
+}
+@-ms-keyframes navin {
+    0% {
+        opacity: 0
+   }
+   30% {
+       opacity: 0
+  }
+  35% {
+      opacity: 1
+ }
+ 100% {
+     opacity: 1
+}
+}
+@keyframes navin {
+    0% {
+        opacity: 0
+   }
+   30% {
+       opacity: 0
+  }
+  35% {
+      opacity: 1
+ }
+ 100% {
+     opacity: 1
+}
+}
+@-webkit-keyframes intro {
+    0%, 25% {
+        background: #9e386a;
+        z-index: 31
+   }
+   99% {
+       display: none;
+       width: 100%;
+       height: 100%
+  }
+  100% {
+      display: none;
+      width: 0;
+      height: 0
+ }
+}
+@-moz-keyframes intro {
+    0%, 25% {
+        background: #9e386a;
+        z-index: 31
+   }
+   99% {
+       display: none;
+       width: 100%;
+       height: 100%
+  }
+  100% {
+      display: none;
+      z-index: 0;
+      width: 0;
+      height: 0
+ }
+}
+@-ms-keyframes intro {
+    0%, 25% {
+        background: #9e386a;
+        z-index: 31
+   }
+   99% {
+       display: none;
+       width: 100%;
+       height: 100%
+  }
+  100% {
+      display: none;
+      z-index: 0;
+      width: 0;
+      height: 0
+ }
+}
+@keyframes intro {
+    0%, 25% {
+        background: #9e386a;
+        z-index: 31
+   }
+   99% {
+       display: none;
+       width: 100%;
+       height: 100%
+  }
+  100% {
+      display: none;
+      z-index: 0;
+      width: 0;
+      height: 0
+ }
+}
+@-webkit-keyframes intro-content {
+    0%, 99% {
+        z-index: 30
+   }
+   100% {
+       z-index: 32
+  }
+}
+@-moz-keyframes intro-content {
+    0%, 99% {
+        z-index: 30
+   }
+   100% {
+       z-index: 32
+  }
+}
+@-ms-keyframes intro-content {
+    0%, 99% {
+        z-index: 30
+   }
+   100% {
+       z-index: 32
+  }
+}
+@keyframes intro-content {
+    0%, 99% {
+        z-index: 30
+   }
+   100% {
+       z-index: 32
+  }
+}

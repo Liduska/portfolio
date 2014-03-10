@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>
+        {% if page.title %}{{ page.title }} &middot; {% endif %}
+        {{ site.title }}
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Josef Rousek, http://rousek.name/">
+        <meta name="description" content="{{ description }}">
+        <meta property="og:image" content="">
+        <meta property="og:title" content="Lidmila Maršálková - fotografka">
+        <meta property="og:url" content="http://lidmila.cz/">
+        <meta property="og:site_name" content="{{ site.title }}">
+        <meta property="og:type" content="website">
+        <link rel="stylesheet" href="/styles.css" media="screen" />
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.min.js"></script>
+        <![endif]-->
+        <link href="http://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+    <body id="{{ page.name }}">
+        <header id="nav"{% if page.name != 'index' %} class="stuck"{% endif %}>
+            <div class="row">
+                <nav id="navigation" class="right">
+                    <a href="/" id="logo">Lidmila Maršálková</a>
+                    <ul>
+                        <li><a href="/#services">Služby</a></li>
+                        <li><a href="/#who">O mě</a></li>
+                        <li><a href="/#contact">Napište mi</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </nav>
+            </div>
+        </header>
+        {{ content }}
+    </body>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-48819928-1', 'lidmila.cz');
+    ga('send', 'pageview');
+    </script>
+</html>

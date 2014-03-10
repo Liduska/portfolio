@@ -1,0 +1,8 @@
+---
+layout: nil
+---
+
+{% include animations.css %}
+{% include bootstrap.css %}
+{% include fonts.css %}
+{% include styles.css %}

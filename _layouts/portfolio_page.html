@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div id="content" class="no-collapse">
+    <div class="row">
+        <div class="large-5 columns">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.content }}</p>
+        </div>
+        <div class="large-7 columns">
+            {% for image in page.images %}
+            <a href="/images/{{ page.gallery }}/{{ image }}" rel="lightbox">
+            <img class="gallery-image" src="/images/{{ page.gallery }}/thumbs/{{ image }}" />
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% include footer.htm %}
+</div>
+<script type="text/javascript" src="/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('a[rel=lightbox]').fancybox();
+        });
+</script>

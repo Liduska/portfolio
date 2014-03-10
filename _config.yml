@@ -1,0 +1,10 @@
+title:        "Lidmila Maršálková - fotografka"
+description:  ""
+permalink:    pretty
+exclude:      ['*.txt']
+
+gallery:
+  dir: images
+  thumbnail_size:
+    x: 280
+    y: 280
