@@ -41,6 +41,7 @@ p {
 :-ms-input-placeholder {
     color: #bbb
 }
+.placeholder { color: #aaa; }
 header#header {
     background: #9e386a;
     position: fixed;
