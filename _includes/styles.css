@@ -41,7 +41,9 @@ p {
 :-ms-input-placeholder {
     color: #bbb
 }
-.placeholder { color: #aaa; }
+.placeholder {
+    color: #bbb;
+}
 header#header {
     background: #9e386a;
     position: fixed;
@@ -285,6 +287,9 @@ header#nav.stuck nav#navigation ul {
     -o-animation: navin 5s forwards linear;
     -ms-animation: navin 5s forwards linear;
     animation: navin 5s forwards linear
+}
+header#header.stuck {
+    display: none;
 }
 @media (max-width: 1149px) {
     #index header#header h1#brand, #index header#header h2#roof {

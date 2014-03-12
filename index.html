@@ -45,7 +45,7 @@ name: index
             <div class="large-11 large-offset-1 columns">
                 <h2>Kdo jsem?</h2>
                 <h3></h3>
-                <img class="img-polaroid" src="public/lidmila_hand_s.jpg" />
+                <img class="img-polaroid" src="public/lidmila_hand_s.jpg" alt="Moje fotografie" />
                 <p>V současné době pracuji v HR oblasti v bankovním sektoru. Zde se učím naslouchat a porozumět potřebám druhých a zdokonaluji se v mezilidské komunikaci. To samé by podle mého názoru měl umět i dobrý fotograf. Mít dobře zvládnutou techniku vždy nestačí, aby mohla vzniknout krásná fotografie, která bude těšit obě strany. Je třeba se vzájemně pochopit.
                 </p><p>
                 Ve volném čase hraji bowling, cestuji nebo píši osobní blog. Hlavní radostí je ale samozřejmě fotografování. K němu jsem si našla cestu již v dětství, kdy jsem tehdy jako dítě běhala po zahradě s kompaktním fotoaparátem a fotila zahradu, brouky a příbuzné. V dospívání jsem ho vyměnila za digitální a přírodu vystřídalo fotografování společenských akcí s přáteli a turistické destinace.
@@ -95,8 +95,18 @@ name: index
 <script src="//cdn.jsdelivr.net/jquery.placeholder/2.0.7/jquery.placeholder.min.js"></script>
 <script>
     $(function() {
-    $("#content").waypoint(function() { $("#nav").toggleClass("stuck") }, { offset: 160 });
-    $("#content").waypoint(function() { $("header#header").toggleClass("stuck") }, { offset: 107 });
-    $('input, textarea').placeholder();
+        $("#content").waypoint(function() { $("#nav").toggleClass("stuck") }, { offset: 160 });
+        $("#content").waypoint(function() { $("header#header").toggleClass("stuck") }, { offset: 300 });
+        $('input, textarea').placeholder();
+        if (!$.support.animation)
+        {
+            $("#index header#header h2#roof").css('opacity','1');
+        }
     });
+    $.support.animation = (function(){
+        var thisBody = document.body || document.documentElement,
+            thisStyle = thisBody.style,
+            support = thisStyle.animation !== undefined || thisStyle.WebkitAnimation !== undefined || thisStyle.MozAnimation !== undefined || thisStyle.MsAnimation !== undefined || thisStyle.OAnimation !== undefined;
+        return support;
+    })();
 </script>
