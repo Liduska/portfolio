@@ -1,26 +1,40 @@
 ---
 layout: default
+name: portfolio
 ---
 <div id="content" class="no-collapse">
     <div class="row">
-        <div class="large-5 columns">
+        <div class="large-12 columns">
             <h1>{{ page.title }}</h1>
-            <p>{{ page.content }}</p>
+            <p class="links">
+            <a href="/portrety">Portréty</a> - <a href="/spolecenske-udalosti">Společenské události</a> - <a href="/produktova-fotografie">Produktová fotografie</a>
+            </p>
+            <p class="content">{{ page.content }}</p>
         </div>
-        <div class="large-7 columns">
-            {% for image in page.images %}
-            <a href="/images/{{ page.gallery }}/{{ image }}" rel="lightbox">
-            <img class="gallery-image" src="/images/{{ page.gallery }}/thumbs/{{ image }}" />
-            </a>
-            {% endfor %}
-        </div>
+    </div>
+    <div id="photos">
+        {% for image in page.images %}
+        <a href="/images/{{ page.gallery }}/{{ image.name }}" rel="lightbox">
+        <img class="gallery-image" src="/images/{{ page.gallery }}/thumbs/{{ image.name }}" width="{{ image.width }}" height="{{ image.height }}" />
+        </a>
+        {% endfor %}
     </div>
     {% include footer.htm %}
 </div>
 <script type="text/javascript" src="/public/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="/public/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="/public/imagesloaded.pkgd.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/public/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
 <script type="text/javascript">
         $(document).ready(function() {
             $('a[rel=lightbox]').fancybox();
+            var $container = $('#photos');
+            $container.imagesLoaded(function() {
+                $container.masonry({
+                        columnWidth: 280,
+                        gutter: 10,
+                        itemSelector: 'a'
+                        });
+            });
         });
 </script>

@@ -516,3 +516,25 @@ a:hover .arrow, button:hover .arrow {
     -ms-transition: left .2s linear;
     transition: left .2s linear
 }
+
+#portfolio {
+    text-align: center;
+}
+#portfolio h1 {
+    font-size: 44px;
+    font-weight: 700;
+}
+#portfolio p {
+    margin: 0 auto;
+    max-width: 600px;
+}
+#portfolio p.links {
+    margin-bottom: 20px;
+}
+#portfolio p.content {
+    margin-bottom: 50px;
+}
+#photos {
+    margin: 0 auto;
+    max-width: 860px;
+}

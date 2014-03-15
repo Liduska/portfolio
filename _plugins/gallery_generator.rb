@@ -37,26 +37,24 @@ module Jekyll
       self.process(@name)
       self.read_yaml(dir, "index.txt")
       self.data["gallery"] = gallery_name
-      self.data["name"] = gallery_name
       thumbs_dir = "#{site.dest}/#{@dest_dir}/thumbs"
 
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
       Dir.foreach(dir) do |image|
         if image.chars.first != "." and image.downcase().end_with?(*$image_extensions)
-          @images.push(image)
           @site.static_files << GalleryFile.new(site, base, "#{@dest_dir}/thumbs/", image)
-          if File.file?("#{thumbs_dir}/#{image}") == false or File.mtime("#{dir}/#{image}") > File.mtime("#{thumbs_dir}/#{image}")
-            begin
-              m_image = ImageList.new("#{dir}/#{image}")
-              m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)
-              puts "Writing thumbnail to #{thumbs_dir}/#{image}"
-              m_image.write("#{thumbs_dir}/#{image}")
-            rescue
-              puts "error"
-              puts $!
-            end
-            GC.start
+          begin
+            m_image = ImageList.new("#{dir}/#{image}")
+            img = m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)
+            puts "Writing thumbnail to #{thumbs_dir}/#{image}"
+            m_image.write("#{thumbs_dir}/#{image}")
+            imageInfo = { "name" => image, "width" => img.columns, "height" => img.rows }
+            @images.push(imageInfo)
+          rescue
+            puts "error"
+            puts $!
           end
+          GC.start
         end
       end
       self.data["images"] = @images
