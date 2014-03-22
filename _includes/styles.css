@@ -538,3 +538,7 @@ a:hover .arrow, button:hover .arrow {
     margin: 0 auto;
     max-width: 860px;
 }
+#photos a {
+    display: block;
+    margin-bottom: 10px;
+}
