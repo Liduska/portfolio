@@ -1,6 +1,8 @@
 ---
 layout: portfolio_page
 title: 'Produktová fotografie'
+aside: "<p>300 – 1 000 korun - dle času a rozsahu práce</p>
+<p>5 – 15 fotografií - fotografie dodám na DVD nosiči, případně nahraji na internetové úložiště(Dropbox, ulož.to)</p>"
 ---
 
 Pořídím fotografie vašich služeb či produktů pro vaši dokonalou prezentaci. Ať už se bude jednat o e-shop, mediální nosič, brožuru či knižní přebal, buďte si jisti, že s mými fotografiemi své zákazníky zaujmete. Fotografovat lze jak v interiéru tak v exteriéru.

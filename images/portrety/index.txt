@@ -1,6 +1,9 @@
 ---
 layout: portfolio_page
-title: Portréty
+title: "Portrétová fotografie"
+aside: "<p>500 – 1 500 korun - dle času a rozsahu práce</p>
+<p>10 – 25 fotografií - fotografie dodám na DVD nosiči, případně nahraji na internetové úložiště(Dropbox, ulož.to)</p>
+<p>Fotografování v ateliéru bude probíhat nedaleko zastávky metra linky C - Chodov.</p>"
 ---
 
 Nabízím široké spektrum portrétových fotografií, např. rodinné, pro školy, do profesního životopisu, modelingové, akty aj. Preferuji fotografování ve venkovním prostředí, kdy přirozené světlo a okolní prostředí umí vykouzlit to, co technika v ateliéru jen stěží. Pokud raději zvolíte interiér, není to žádný problém. I tak společně vytvoříme pěkné fotografie, ze kterých budete mít radost.
