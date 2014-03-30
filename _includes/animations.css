@@ -54,35 +54,3 @@
      opacity: 1
 }
 }
-@-webkit-keyframes intro-content {
-    0%, 99% {
-        z-index: 30
-   }
-   100% {
-       z-index: 32
-  }
-}
-@-moz-keyframes intro-content {
-    0%, 99% {
-        z-index: 30
-   }
-   100% {
-       z-index: 32
-  }
-}
-@-ms-keyframes intro-content {
-    0%, 99% {
-        z-index: 30
-   }
-   100% {
-       z-index: 32
-  }
-}
-@keyframes intro-content {
-    0%, 99% {
-        z-index: 30
-   }
-   100% {
-       z-index: 32
-  }
-}
