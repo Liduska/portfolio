@@ -465,8 +465,9 @@ a:hover .arrow, button:hover .arrow {
 #photos {
     margin: 0 auto;
     max-width: 860px;
+    padding: 10px;
 }
 #photos a {
     display: block;
-    margin-bottom: 10px;
+    opacity: 0;
 }

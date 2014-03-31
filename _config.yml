@@ -6,5 +6,5 @@ exclude:      ['*.txt']
 gallery:
   dir: images
   thumbnail_size:
-    x: 280
-    y: 280
+    x: 500
+    y: 500

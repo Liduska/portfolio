@@ -20,29 +20,20 @@ name: portfolio
             {{ page.aside }}
         </div>
     </div>
-    <div id="photos">
-        {% for image in page.images %}
-        <a href="/images/{{ page.gallery }}/{{ image.name }}" rel="lightbox">
-        <img class="gallery-image" src="/images/{{ page.gallery }}/thumbs/{{ image.name }}" width="{{ image.width }}" height="{{ image.height }}" />
-        </a>
-        {% endfor %}
-    </div>
+    <div id="photos">{% for image in page.images %}<a href="/images/{{ page.gallery }}/{{ image }}" rel="lightbox"><img class="gallery-image" src="/images/{{ page.gallery }}/thumbs/{{ image }}" /></a>{% endfor %}</div>
     {% include footer.htm %}
 </div>
 <script type="text/javascript" src="/public/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-<script type="text/javascript" src="/public/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="/public/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="/public/jquery.collagePlus.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/public/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
 <script type="text/javascript">
-        $(document).ready(function() {
-            $('a[rel=lightbox]').fancybox();
-            var $container = $('#photos');
-            $container.imagesLoaded(function() {
-                $container.masonry({
-                        columnWidth: 280,
-                        gutter: 10,
-                        itemSelector: 'a'
-                        });
-            });
+    $(document).ready(function() {
+        $('a[rel=lightbox]').fancybox();
+    });
+    $(window).load(function () {
+        $('#photos').collagePlus(
+        {
+            'targetHeight'  : 250
         });
+    });
 </script>
