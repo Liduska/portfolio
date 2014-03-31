@@ -57,7 +57,7 @@ header#header {
 }
 footer#footer {
     background-color: #f1db6b;
-    color: #fff
+    color: #646464
 }
 footer#footer ul {
     list-style: none;
@@ -76,7 +76,7 @@ footer#footer ul li strong {
     font-weight: 500
 }
 footer#footer ul li a {
-    color: #fff
+    color: #646464
 }
 @media (max-width: 767px) {
     footer#footer ul {
@@ -252,27 +252,23 @@ header#nav.stuck nav#navigation {
  }
 }
 #index section#who {
+    padding: 0 0 50px 0;
     background: #f8f8f8;
 }
 .img-polaroid {
     margin: 15px;
-    width: 350px;
-    border-radius: 350px;
+    width: 300px;
+    border-radius: 150px;
     box-shadow: 0px 4px 0px #ddd;
 }
-#index section#who .columns {
-    margin-top: 100px
+#index section#who {
+    padding: 50px;
 }
 #index section#who h2 {
+    padding: 0 0 40px 0;
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 0
-}
-#index section#who h3 {
-    font-size: 42px;
-    font-weight: 300;
-    line-height: 1.3;
-    margin-top: 5px
 }
 #index section#who p a {
     font-size: 20px
@@ -286,9 +282,6 @@ header#nav.stuck nav#navigation {
     #index section#who h2 {
         font-size: 32px
    }
-   #index section#who h3 {
-       font-size: 30px
-  }
 }
 @media (max-width: 767px) {
     #index section#who {
@@ -300,17 +293,32 @@ header#nav.stuck nav#navigation {
   #index section#who h2 {
       font-size: 32px
  }
- #index section#who h3 {
-     font-size: 30px
 }
+#index section#why {
+    padding: 0 0 50px 0;
 }
-#index section#photos {
-    text-align: center;
-    margin: 40px 0
+#index section#why h2 {
+    font-size: 44px;
+    font-weight: 700;
+    padding: 75px 0 40px 0;
 }
-#index section#photos img {
-    margin: 10px;
-    vertical-align: middle
+#index section#why ul {
+    padding-left:15px;
+}
+#index section#why ul li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 8px 0 10px 40px;
+    position: relative;
+}
+#index section#why ul li:before {
+    content: '✔';
+    color:#82b808;
+    font-size: 1.5em;
+    background:none;
+    position: absolute;
+    left: 0px;
+    top: 8px;
 }
 form#contact-form {
     background: #f8f8f8;
@@ -322,7 +330,7 @@ form#contact-form h2 {
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 0;
-    padding: 150px 0 50px 0;
+    padding: 75px 0 50px 0;
 }
 form#contact-form input[type=text], form#contact-form input[type=email], form#contact-form input[type=tel], form#contact-form textarea {
     padding: 15px 25px;
@@ -446,7 +454,8 @@ a:hover .arrow, button:hover .arrow {
 #portfolio .aside {
     background: #fcf7e0;
     padding: 15px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
 #portfolio .aside p {
     margin: 0 0 10px 0;
