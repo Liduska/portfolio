@@ -1,9 +1,11 @@
 ---
 layout: portfolio_page
 title: "Portrétová fotografie"
-aside: "<p>500 – 1 500 korun - dle času a rozsahu práce</p>
-<p>10 – 25 fotografií - fotografie dodám na DVD nosiči, případně nahraji na internetové úložiště(Dropbox, ulož.to)</p>
-<p>Fotografování v ateliéru bude probíhat nedaleko zastávky metra linky C - Chodov.</p>"
+aside: "<ul>
+<li>700 – 1 700,-Kč, min. 8 fotografií, max. 18 - vč. základních úprav v grafickém programu</li>
+<li>CD/DVD nosič + internetové úložiště (např. dropbox.com, uložto.cz, úschovna.cz)</li>
+<li>fotografování v ateliéru (Praha 4 – Chodov) nebo dle přání zákazníka na vybraných místech v Praze</li>
+</ul>"
 ---
 
-Nabízím široké spektrum portrétových fotografií, např. rodinné, pro školy, do profesního životopisu, modelingové, akty aj. Preferuji fotografování ve venkovním prostředí, kdy přirozené světlo a okolní prostředí umí vykouzlit to, co technika v ateliéru jen stěží. Pokud raději zvolíte interiér, není to žádný problém. I tak společně vytvoříme pěkné fotografie, ze kterých budete mít radost.
+Rádi byste si rozšířili svou sbírku rodinných fotografií o pár nových snímků nebo udělali radost partnerovi? Potřebujete se dobře prezentovat na svém profesním CV? Pak jste tu správně. Nabízím široké spektrum portrétových fotografií od <strong>rodinných</strong> přes <strong>třídní tabla</strong> až po <strong>glamour</strong> a <strong>akty</strong>. Preferuji fotografování ve venkovním prostředí, kdy přirozené světlo a okolní prostředí umí vykouzlit to, co technika v ateliéru jen stěží. Pokud dáte přednost ateliérovému fotografování, budu se na Vás těšit ve <strong>fotoateliéru na Praze 4</strong>.
