@@ -2,10 +2,10 @@
 layout: portfolio_page
 title: "Společenské události"
 aside: "<ul>
-<li>kompletní svatební den (přípravy na svatbu vč. zkoušky šatů v salónu + obřad + portrét + hostina) –  50 fotografií za 4 500,-Kč</li>
+<li>kompletní svatební den (přípravy na svatbu vč. zkoušky šatů v salónu + obřad + portrét + hostina) –  40 fotografií za 4 500,-Kč</li>
 <li>svatební obřad + portrét – 20 fotografií za 2 000,-Kč</li>
 <li>příplatek za svatební album vč. tisku – 500,-Kč</li>
-<li>firemní události, maturitní plesy aj. – 25 fotografií 1 500,-Kč</li>
+<li>firemní události, maturitní plesy aj. – 25 fotografií 2 500,-Kč</li>
 <li>v ceně jsou započítány základní úpravy v grafickém programu</li>
 <li>CD/DVD nosič + internetové úložiště (např. dropbox.com, uložto.cz, úschovna.cz)</li>
 <li>fotografování v Praze a Středočeském kraji</li></ul>"

@@ -2,7 +2,8 @@
 layout: portfolio_page
 title: "Portrétová fotografie"
 aside: "<ul>
-<li>700 – 1 700,-Kč, min. 8 fotografií, max. 18 - vč. základních úprav v grafickém programu</li>
+<li>2 000,-Kč, 18 fotografií - vč. základních úprav v grafickém programu</li>
+<li>doba fotografování - max. 2 hodiny</li>
 <li>CD/DVD nosič + internetové úložiště (např. dropbox.com, uložto.cz, úschovna.cz)</li>
 <li>fotografování v ateliéru (Praha 4 – Chodov) nebo dle přání zákazníka na vybraných místech v Praze</li>
 </ul>"

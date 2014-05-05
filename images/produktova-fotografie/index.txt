@@ -2,7 +2,7 @@
 layout: portfolio_page
 title: 'Produktová fotografie'
 aside: "<ul>
-<li>550,-Kč za 3 fotografie - vč. základních úprav v grafickém programu</li>
+<li>600,-Kč za 3 fotografie - vč. základních úprav v grafickém programu</li>
 <li>CD/DVD nosič + internetové úložiště (např. dropbox.com, uložto.cz, úschovna.cz)</li>
 <li>fotografování v ateliéru (Praha 4 – Chodov) nebo v sídle zákazníka (pouze v Praze)</li>
 </ul>"
