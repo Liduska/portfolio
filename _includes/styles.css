@@ -189,7 +189,7 @@ header#nav nav#navigation ul a:hover, header#nav nav#navigation ul a:active, hea
     }
 }
 header#nav.stuck nav#navigation {
-    padding: 18px 0 10px 0;
+    padding: 10px 0 0 0;
     -webkit-transition: padding .2s linear;
     -moz-transition: padding .2s linear;
     -o-transition: padding .2s linear;
@@ -465,6 +465,9 @@ a:hover .arrow, button:hover .arrow {
 #portfolio .aside li {
     margin: 0 0 5px 0;
 }
+.Caption .Caption_Content {
+    padding: 10px;
+}
 #photos {
     margin: 0 auto;
     max-width: 860px;
@@ -473,4 +476,14 @@ a:hover .arrow, button:hover .arrow {
 #photos a {
     display: block;
     opacity: 0;
+}
+#photos a:hover {
+    color: #f1db6b;
+}
+#story article {
+    text-align: center;
+}
+
+#story article img {
+    width: 700px;
 }

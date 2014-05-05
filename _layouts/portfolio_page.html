@@ -19,11 +19,12 @@ name: portfolio
             {{ page.aside }}
         </div>
     </div>
-    <div id="photos">{% for image in page.images %}<a href="/images/{{ page.gallery }}/{{ image }}" rel="lightbox"><img class="gallery-image" src="/images/{{ page.gallery }}/thumbs/{{ image }}" /></a>{% endfor %}</div>
+    <div id="photos">{% for post in site.categories.[page.gallery] %}<a href="{{ post.url }}" data-caption="{{ post.title }}"><img class="gallery-image" src="{{ post.main }}" /></a>{% endfor %}{% for image in page.images %}<a href="/images/{{ page.gallery }}/{{ image }}" rel="lightbox"><img class="gallery-image" src="/images/{{ page.gallery }}/thumbs/{{ image }}" /></a>{% endfor %}</div>
     {% include footer.htm %}
 </div>
 <script type="text/javascript" src="/public/fancybox/jquery.fancybox.js?v=2.1.5"></script>
 <script type="text/javascript" src="/public/jquery.collagePlus.min.js"></script>
+<script type="text/javascript" src="/public/jquery.collageCaption.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/public/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
 <script type="text/javascript">
     $(document).ready(function() {
@@ -34,6 +35,6 @@ name: portfolio
         {
             'targetHeight': 250,
             'allowPartialLastRow': true
-        });
+        }).collageCaption();
     });
 </script>
