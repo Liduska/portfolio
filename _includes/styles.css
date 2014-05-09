@@ -465,9 +465,6 @@ a:hover .arrow, button:hover .arrow {
 #portfolio .aside li {
     margin: 0 0 5px 0;
 }
-.Caption .Caption_Content {
-    padding: 10px;
-}
 #photos {
     margin: 0 auto;
     max-width: 860px;
@@ -485,5 +482,5 @@ a:hover .arrow, button:hover .arrow {
 }
 
 #story article img {
-    width: 700px;
+    width: 600px;
 }

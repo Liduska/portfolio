@@ -6,3 +6,4 @@ layout: nil
 {% include bootstrap.css %}
 {% include fonts.css %}
 {% include styles.css %}
+{% include hover.css %}
