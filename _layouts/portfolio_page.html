@@ -12,15 +12,12 @@ name: portfolio
         </div>
     </div>
     <div class="row">
-        <div class="large-8 columns">
+        <div class="large-8 columns text-block large-centered">
             <p class="content">{{ page.content }}</p>
-        </div>
-        <div class="large-4 columns aside">
-            {{ page.aside }}
         </div>
     </div>
     <div class="row">
-        <div class="large-12 columns middle">
+        <div class="large-12 columns">
             <ul class="items">
                 {% for post in site.categories.[page.gallery] %}
                 <li>

@@ -22,9 +22,14 @@ hr {
     border-bottom: 1px solid #fff
 }
 p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
-    margin-bottom: 18px
+    margin-bottom: 18px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 .text-center {
     text-align: center
@@ -480,7 +485,15 @@ a:hover .arrow, button:hover .arrow {
 #story article {
     text-align: center;
 }
-
 #story article img {
     width: 600px;
+}
+#price-list td {
+    padding: 15px 5px;
+}
+#price-list td:first-child {
+    width: 300px;
+}
+#price-list td:nth-child(2) {
+    width: 150px;
 }
