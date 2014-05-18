@@ -487,6 +487,10 @@ a:hover .arrow, button:hover .arrow {
 }
 #story article img {
     width: 600px;
+    min-height: 200px;
+    opacity: 0.5;
+    background: #ccc;
+    transition: opacity .3s ease-in;
 }
 #price-list td {
     padding: 15px 5px;
