@@ -1,11 +1,6 @@
 ---
 layout: portfolio_page
 title: 'Produktová fotografie'
-aside: "<ul>
-<li>600,-Kč za 3 fotografie - vč. základních úprav v grafickém programu</li>
-<li>CD/DVD nosič + internetové úložiště (např. dropbox.com, uložto.cz, úschovna.cz)</li>
-<li>fotografování v ateliéru (Praha 4 – Chodov) nebo v sídle zákazníka (pouze v Praze)</li>
-</ul>"
 ---
 
 Dokonalá vizuální <strong>prezentace produktů a služeb</strong> je velmi důležitým prvkem, jak zaujmout potencionálního zákazníka. Fotografie častokrát určí, zda se zákazník rozhodne pro vás či pro konkurenci. Ať už se bude jednat o <strong>snímky pro e-shop</strong>, <strong>bakalářskou práci</strong> nebo třeba pro <strong>knižní přebal</strong>, můžete si být jisti, že s mými fotografiemi se dobře zviditelníte.
